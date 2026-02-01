@@ -142,7 +142,7 @@ Siber tehditler her gün değişiyor (Zero-Day, yeni exploitler).
 
 ### 📤 Nasıl Teslim Ederim? (Fork & Pull Request)
 
-Ödevinizi **PDF** formatında max. 10 sayfa hazırladıktan sonra aşağıdaki adımları izleyerek profesyonel bir şekilde teslim edin.
+Ödevinizi **PDF** formatında max. 5-6 sayfa hazırladıktan sonra aşağıdaki adımları izleyerek profesyonel bir şekilde teslim edin.
 
 **Dosya Adı Formatı:** `Ad_Soyad_Odev1.pdf` (Örn: `Ali_Yilmaz_Odev1.pdf`)
 
