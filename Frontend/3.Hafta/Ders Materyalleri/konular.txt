@@ -1,0 +1,56 @@
+1. Bölüm: HTML5 ve Semantik Web (İskelet ve Anlam)
+Bu bölümde amacımız, sadece "çalışan" bir sayfa değil, arama motorlarının ve engelli cihazlarının "anlayabildiği" bir sayfa yapmak.
+
+1.1. HTML'in Anatomisi ve Element Mantığı
+Belge Yapısı: <!DOCTYPE html>, <html>, <head> (ayarlar) ve <body> (içerik) katmanları.
+
+Görünürlük Farkı: Blok (div, p, h1) ve Satır İçi (span, a, img) elementlerin ekrandaki davranışı.
+
+Meta Veriler: Karakter seti (UTF-8) ve viewport (mobil uyum) ayarlarının neden zorunlu olduğu.
+
+1.2. Semantik (Anlamsal) Yapı ve SEO
+Anlamsız Etiketler: div ve span ne zaman kullanılmalı?
+
+Anlamlı Etiketler: <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>. Bu etiketler neden Googlebot için bir "harita" görevi görür?
+
+Hiyerarşi: <h1>'den <h6>'ya başlık kullanımı. Sayfada neden sadece bir tane <h1> olmalı?
+
+1.3. Multimedya ve Modern Formlar
+Görsel ve Ses: <img> etiketinde alt özniteliğinin önemi; <video> ve <audio> ile medya yönetimi.
+
+Yeni Nesil Formlar: email, number, date gibi tiplerin mobil klavyeye etkisi ve required, placeholder gibi otomatik doğrulamalar.
+
+Erişilebilirlik: <label> ve <input> arasındaki id/for bağlantısının önemi.
+
+2. Bölüm: Modern CSS ve Layout (Estetik ve Düzen)
+CSS tarafında "deneme yanılma" yönteminden kurtulup, profesyonel bir yerleşim mantığı kuracağız.
+
+2.1. Seçiciler ve Öncelik (Hiyerarşi)
+Temel Seçiciler: Etiket, Class (.) ve ID (#) farkları.
+
+Seçici Savaşı (Specificity): Aynı elemana iki farklı renk verilirse hangisi kazanır? (ID > Class > Element).
+
+Tehlikeli Bölge: !important neden projeyi kirletir ve alternatifi nedir?
+
+Kalıtım (Inheritance): Hangi özellikler (font, renk vb.) üst kapsayıcıdan alt elemanlara geçer?
+
+2.2. Kutu Modeli (Box Model) ve Birimler
+Kutu Bileşenleri: Content, Padding, Border, Margin.
+
+Hayat Kurtaran Ayar: box-sizing: border-box; neden her projede kullanılır?
+
+Modern Birimler: Sabit px yerine neden esnek rem, em, vh ve vw kullanmalıyız?
+
+2.3. Esnek ve Izgara Düzenler (Flex & Grid)
+Flexbox (Tek Boyutlu): justify-content ve align-items ile kolayca hizalama. Mobilde flex-direction: column kullanımı.
+
+CSS Grid (İki Boyutlu): Sayfayı satır ve sütunlara bölme. fr (fraction) birimi ile ekranı paylaştırma.
+
+Grid Areas: Sayfa parçalarına (Header, Footer vb.) isim vererek yerleştirme kolaylığı.
+
+2.4. Duyarlı Tasarım (Responsive Design)
+Media Queries: @media ile ekran genişliğine göre stil değiştirme.
+
+Mobile-First: Neden önce en küçük ekranı kodlamalıyız?
+
+Breakpoint Stratejisi: Tasarımın bozulduğu "kırılma noktalarını" nasıl belirleriz?

@@ -1,0 +1,45 @@
+Değişkenler ve Kapsam (Scope)
+Var vs Let/Const:
+
+var: Function scoped'dur. Fonksiyonun içinde her yerden erişilebilir. En büyük sorunu re-declaration (aynı isimle tekrar tanımlama) hatası vermemesidir.
+let & const: Block scoped'dur. Sadece bulunduğu süslü parantez {} içinde yaşar.
+Temporal Dead Zone (TDZ): let ve const tanımlanmadan önce onlara erişmeye çalışırsanız hata alırsınız. Bu, kod güvenliğini artırır.
+Hoisting:
+
+JavaScript motoru kod çalışmadan önce tüm deklarasyonları en üste taşır.
+var ile tanımlanan değişkenler undefined olarak başlar.
+Fonksiyon deklarasyonları (function selam() {}) tamamen hoist edilir, yani tanımlanmadan önce çağrılabilirler.
+Scope Türleri:
+
+Global: Sayfanın her yerinden erişim.
+Function: Sadece o fonksiyona özel.
+Block: if, for gibi yapıların içindeki dar alan.
+
+Template Literals ve String Metotları
+Backticks ( ` ): Sadece değişken gömmek (${}) değil, aynı zamanda fonksiyon çağrıları ve matematiksel işlemler de içinde yapılabilir.
+Multi-line: Kaçış karakterleri (\n) kullanmadan kodun içinde nasıl görünüyorsa ekrana öyle basma kolaylığı.
+Metotlar: .includes() (var mı?), .startsWith() (bununla mı başlıyor?), .endsWith() (bununla mı bitiyor?). Hepsi boolean değer döner ve if şartlarında kodun okunabilirliğini artırır.
+
+Destructuring (Parçalara Ayırma)
+Object Destructuring: * Tek satırda birden fazla anahtarı değişken yapma: const { name, age, city } = user;.
+Renaming: API'den gelen user_name değişkenini kodunda ad olarak kullanma: const { user_name: ad } = data;.
+Nested Destructuring: Objelerin içindeki objeleri parçalama (React props'larında çok sık kullanılır).
+Array Destructuring: Sıralama önemlidir. const [ilk, ikinci] = dizi;. Eleman atlamak için virgül kullanılır: const [,,ucuncu] = dizi;.
+
+Spread ve Rest Operatörleri (...)
+Spread (Yayma):
+Immutability (Değişmezlik): React'te bir state'i güncellerken orijinal veriyi bozmamak için kullanılır. setItems([...oldItems, newItem]).
+Deep vs Shallow Copy: Spread operatörünün sadece "sığ kopya" (shallow copy) yaptığını, iç içe objelerde referansın hala aynı kaldığını vurgulamalı.
+Rest (Toplama): * Fonksiyon parametrelerinde kaç tane argüman geleceği belli değilse kullanılır: function topla(...sayilar).
+Parçalama yaparken "geri kalanlar"ı toplamak için: const { id, ...diğerHerŞey } = product;.
+
+Arrow Functions ve Fonksiyon Temelleri
+Arrow Functions (=>): * Sadece kısalık değil, en önemli farkı this bağlamıdır. Arrow function kendi this bağlamını oluşturmaz, dışarıdakini kullanır.
+Implicit Return: {} ve return kullanmadan: const kareAl = x => x * x;.
+Default Parameters: API'den veri gelmediğinde uygulamanın çökmesini engeller: const Profil = ({ resim = "default.png" }) => { ... }.
+
+Array Iteration (Dizi Döngüleri)
+.map(): React'in temelidir. Bir diziyi başka bir diziye (genellikle JSX dizisine) dönüştürür. Orijinal diziyi asla değiştirmez.
+.filter(): Bir şarta göre yeni bir dizi oluşturur. Örn: "Stokta olmayan ürünleri gizle".
+.reduce(): En karmaşık olanıdır. (accumulator, currentValue) parametreleri ile çalışır. Örn: Alışveriş sepetindeki toplam fiyatı kuruşu kuruşuna hesaplama.
+.forEach(): Bir değer döndürmez. Sadece yan etki (side effect) yaratmak için (console'a basmak, veritabanına kaydetmek gibi) kullanılır.

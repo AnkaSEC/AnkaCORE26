@@ -1,0 +1,70 @@
+1. Modern Nesne (Object) Kullanımı
+Bu başlık, kodun okunabilirliğini artırmak ve hataları önlemek içindir.
+
+Property Shorthand (Kısa Yazım):
+
+Değişken ismi ile anahtar (key) ismi aynı olduğunda { name: name } yerine neden sadece { name } yazarız?
+
+Kod kalabalığını azaltma ve temiz yazım kuralları.
+
+Optional Chaining (?.):
+
+Hiyerarşik (iç içe) nesnelerde yolun yarısında bir değer eksikse uygulamanın çökmesini nasıl engelleriz?
+
+"Cannot read properties of undefined" hatasının çözümü.
+
+Nullish Coalescing (??):
+
+|| (veya) operatöründen farkı nedir?
+
+Sadece null veya undefined gelirse varsayılan değer atama; 0 ve false değerlerini koruma mantığı.
+
+2. Asenkron Programlama: Promises
+Bu başlık, JavaScript'in "beklemeyi" nasıl yönettiğini anlatır.
+
+Promise Kavramı ve Durumları:
+
+Pending (Bekliyor): İşlem henüz sonuçlanmadı.
+
+Resolved (Başarılı): Söz tutuldu, veri geldi.
+
+Rejected (Hatalı): Söz tutulamadı, bir sorun çıktı.
+
+Zamanlanmış İşlemler (.then & .catch):
+
+İşlem bittiğinde sonuç nasıl yakalanır?
+
+Hata durumları nasıl yönetilir?
+
+Promise.all() Kullanımı:
+
+Birden fazla asenkron işlemi aynı anda başlatıp, hepsinin bitmesini bekleme stratejisi.
+3. Modern Asenkron Yapı: Async / Await
+Bu başlık, karmaşık Promise yapısını daha insancıl ve okunur hale getirir.
+
+async Fonksiyonlar:
+
+Bir fonksiyonun başına async eklendiğinde o fonksiyonun nasıl bir "söz" (Promise) döndürdüğü.
+await Kullanımı:
+
+Asenkron bir işlemin bitmesini satır düzeyinde bekleme.
+
+Kodun akışını, işlem bitene kadar "duraklatma" mantığı.
+
+Hata Yönetimi (try-catch):
+
+Asenkron işlemlerde catch bloğu ile uygulamanın çökmesini engelleyip kullanıcıya hata mesajı gösterme.
+4. Dış Dünya ile İletişim: Fetch API
+Bu başlık, gerçek bir sunucudan veri almayı kapsar.
+
+HTTP İstekleri:
+
+GET: Veri çekme isteği.
+
+POST: Sunucuya veri gönderme isteği (Bileşenleri ve body yapısı).
+
+JSON İşlemleri:
+
+Sunucudan gelen veriyi neden .json() ile dönüştürmeliyiz?
+
+Bu işlemin de bir Promise olduğu ve neden await ile beklenmesi gerektiği.
