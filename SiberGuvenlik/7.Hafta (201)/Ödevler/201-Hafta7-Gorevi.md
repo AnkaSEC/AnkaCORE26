@@ -13,7 +13,7 @@ Bu repo, AnkaCORE '26 eğitim programının **201 Aşaması: Active Directory ve
 | **Durum** | 🔴 İLERİ SEVİYE OPERASYON (201 Aşaması) |
 | **Kapsam** | AD Mimarisi, Kerberos Exploitation, Lateral Movement, Post-Exploit |
 | **Zorluk Seviyesi** | ⭐⭐⭐⭐ (4/5) |
-| **Son Teslim** | **21 Nisan Salı Saat 23.59** (Geç Teslim **22 Nisan Çarşamba Saat 23.59**) |
+| **Son Teslim** | **24 Nisan Cuma Saat 23.59** (Geç Teslim **25 Nisan Cumartesi**) |
 
 ---
 
