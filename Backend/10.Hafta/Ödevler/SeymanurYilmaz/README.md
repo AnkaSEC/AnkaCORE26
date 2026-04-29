@@ -3,23 +3,23 @@ Bu proje, bir kütüphanenin kitap, yazar, kategori ve ödünç alma süreçleri
 
 ## Proje İçeriği ve Yapısı
 Proje klasörü şu bileşenlerden oluşmaktadır:
-library-management: Spring Boot kaynak kodları, konfigürasyon dosyaları ve bağımlılık yönetimi (pom.xml).
-veritabani_yedek.sql: Projenin veritabanı şemasını ve test verilerini içeren PostgreSQL dump dosyası.
-Test_Kanitlari: API endpoint'lerinin test edildiğini gösteren Postman ekran görüntüleri.
+- library-management: Spring Boot kaynak kodları, konfigürasyon dosyaları ve bağımlılık yönetimi (pom.xml).
+- veritabani_yedek.sql: Projenin veritabanı şemasını ve test verilerini içeren PostgreSQL dump dosyası.
+- Test_Kanitlari: API endpoint'lerinin test edildiğini gösteren Postman ekran görüntüleri.
 
 ### Kullanılan Teknolojiler
-Java 17
-Spring Boot (Data JPA, Web)
-PostgreSQL (Veritabanı)
-Maven (Bağımlılık Yönetimi)
-Postman (API Testleri)
+- Java 17
+- Spring Boot (Data JPA, Web)
+- PostgreSQL (Veritabanı)
+- Maven (Bağımlılık Yönetimi)
+- Postman (API Testleri)
 
 #### Uygulanan İş Kuralları
 Proje kapsamında aşağıdaki mantıksal kontroller (Business Rules) kodlanmıştır:
-Stok Kontrolü: Mevcut kopyası (Available Copies) olmayan kitaplar ödünç verilemez.
-Kullanıcı Durumu: Sadece active durumda olan kullanıcılar kitap ödünç alabilir.
-İade Süreci: Kitap iade edildiğinde stok otomatik olarak artırılır.
-Benzersiz Kayıt: Aynı isimde kategori veya aynı ISBN'de kitap eklenmesi engellenmiştir.
+- Stok Kontrolü: Mevcut kopyası (Available Copies) olmayan kitaplar ödünç verilemez.
+- Kullanıcı Durumu: Sadece active durumda olan kullanıcılar kitap ödünç alabilir.
+- İade Süreci: Kitap iade edildiğinde stok otomatik olarak artırılır.
+- Benzersiz Kayıt: Aynı isimde kategori veya aynı ISBN'de kitap eklenmesi engellenmiştir.
 
 ##### Kurulum ve Çalıştırma
 veritabani_yedek.sql dosyasını PostgreSQL arayüzü (pgAdmin vb.) üzerinden library_db isimli bir veritabanına Restore/Import edin.
