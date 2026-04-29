@@ -28,4 +28,4 @@ Projeyi IntelliJ IDEA veya terminal üzerinden ./mvnw spring-boot:run komutuyla 
 API varsayılan olarak http://localhost:8080 portunda çalışacaktır.
 
 🧪 API Testleri Hakkında Not
-Postman masaüstü/web sürümündeki teknik dışa aktarma kısıtlamaları nedeniyle .json koleksiyon dosyası yerine, tüm senaryoların (Başarılı kayıt, Stok hatası, Pasif kullanıcı hatası vb.) doğrulandığı ekran görüntüleri Test_Kanitlari klasörüne detaylı olarak eklenmiştir.
+Postman masaüstü/web sürümündeki teknik dışa aktarma kısıtlamaları nedeniyle .json koleksiyon dosyası yerine, tüm senaryoların (Başarılı kayıt, Stok hatası, Pasif kullanıcı hatası vb.) doğrulandığı ekran görüntüleri Test_Kanitlari klasörüne eklenmiştir.
