@@ -65,7 +65,7 @@ Teori bitti, şimdi neşteri elimize alma zamanı. Aşağıdaki 3 cephenin **tam
     * Dosya içindeki gizli metinleri (Strings) okuyarak zararlının niyeti hakkında hangi bulgulara (IP adresi, API çağrısı vb.) ulaştınız? (Ekran görüntüleriyle anlatın).
 
 #### 🦠 Cephe 2: Canavarı Serbest Bırakmak (Basic Dynamic Analysis)
-* **Hedef:** [TryHackMe: Basic Dynamic Analysis](https://tryhackme.com/room/basicanalysis)
+* **Hedef:** [TryHackMe: Basic Dynamic Analysis](https://tryhackme.com/room/basicdynamicanalysis)
 * **Görev:** Statik analiz yetmez; virüsü izole ortamda çalıştırın ve davranışlarını (Process, Network, Registry) izleyin.
 * **Beklenti & Raporlama:**
     * Zararlı yazılımı çalıştırdığınızda (ProcMon veya Process Hacker kullanarak) arka planda kendini hangi isimle gizlediğini veya hangi yeni dosyaları (örn: `C:\Windows\Temp` altına) yarattığını nasıl tespit ettiniz?
