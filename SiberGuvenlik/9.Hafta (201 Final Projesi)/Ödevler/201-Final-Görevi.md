@@ -13,7 +13,7 @@ Bu repo, AnkaCORE '26 eğitim programının **201 Aşaması: Kırmızı Takım O
 | **Durum** | 🔴 İLERİ SEVİYE FİNAL OPERASYONU (201 Aşaması) |
 | **Kapsam** | Red Team, Initial Access, Post-Compromise, MITRE ATT&CK |
 | **Zorluk Seviyesi** | ⭐⭐⭐⭐⭐ (5/5 - FİNAL) |
-| **Son Teslim** | **Pazar Gününe Kadar (Geçmiş Eksiklerle Birlikte)** |
+| **Son Teslim** | **Pazar Gününe Kadar (Geçmiş Eksiklerle Birlikte) Geç Teslim için Pazartesi 23.59 Son Tarih** |
 
 ---
 
