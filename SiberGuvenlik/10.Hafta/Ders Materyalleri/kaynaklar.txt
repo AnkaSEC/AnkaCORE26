@@ -1,0 +1,8 @@
+https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+https://attack.mitre.org/techniques/T1053/005/
+https://attack.mitre.org/techniques/T1574/001/
+https://www.atomicredteam.io/atomic-red-team
+https://wazuh.com/blog/emulation-of-attck-techniques-and-detection-with-wazuh/
+
+https://www.youtube.com/watch?v=_xW3fAumh1c
+https://www.youtube.com/watch?v=r32DlQBOal4
